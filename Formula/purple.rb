@@ -1,19 +1,19 @@
 class Purple < Formula
   desc "Fast, friendly TUI for managing SSH hosts"
   homepage "https://github.com/erickochen/purple"
-  version "0.11.0"
+  version "0.11.1"
   license "MIT"
 
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/erickochen/purple/releases/download/v0.11.0/purple-0.11.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a78b97b102de82d1e3923a317ac42a209916e604bf0d155efefb8f13b7019c74"
+      url "https://github.com/erickochen/purple/releases/download/v0.11.1/purple-0.11.1-aarch64-apple-darwin.tar.gz"
+      sha256 "f7c590e931eeb3001e7b915682e3bb4414d3eda57492ac25e0c5276cd7668617"
     end
     on_intel do
-      url "https://github.com/erickochen/purple/releases/download/v0.11.0/purple-0.11.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8470511f31673da55066087ca8e36838b3a46d164ec82f69976564f83bc91366"
+      url "https://github.com/erickochen/purple/releases/download/v0.11.1/purple-0.11.1-x86_64-apple-darwin.tar.gz"
+      sha256 "8b4d5fde334f771b94f7d7053afe34131903a5bb4d468d83c319955f2f7838c8"
     end
   end
 
