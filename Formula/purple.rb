@@ -9,11 +9,11 @@ class Purple < Formula
   on_macos do
     on_arm do
       url "https://github.com/erickochen/purple/releases/download/v2.31.0/purple-2.31.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b886458055ec4a534d48297b8b0f1d2e7001d1710486af419c52574e5aecc73f"
+      sha256 "e6c03486f63570b701debff47b8ed851d58099b7ca2aeea5fdc9bfa9676f8a7a"
     end
     on_intel do
       url "https://github.com/erickochen/purple/releases/download/v2.31.0/purple-2.31.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6a8bcc321d02cd8a486dcc879c90e7727ad13ce670040504a06eb9679a6a8fb4"
+      sha256 "8f8b21db7754de97088fd8aeca15ac0c33a6c84cc249be6cc146d00a4ba3d74b"
     end
   end
 
