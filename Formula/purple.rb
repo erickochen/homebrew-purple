@@ -1,5 +1,5 @@
 class Purple < Formula
-  desc "Terminal SSH client with file transfer and cloud sync"
+  desc "Open-source terminal SSH manager and SSH config editor"
   homepage "https://github.com/erickochen/purple"
   version "2.35.1"
   license "MIT"
