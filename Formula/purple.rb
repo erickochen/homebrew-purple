@@ -1,19 +1,19 @@
 class Purple < Formula
   desc "Terminal SSH client with file transfer and cloud sync"
   homepage "https://github.com/erickochen/purple"
-  version "2.37.0"
+  version "2.38.0"
   license "MIT"
 
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/erickochen/purple/releases/download/v2.37.0/purple-2.37.0-aarch64-apple-darwin.tar.gz"
-      sha256 "81c35c733a5e865ece43785186360f3cede47efc822fa2a5b572f70e5622b8a6"
+      url "https://github.com/erickochen/purple/releases/download/v2.38.0/purple-2.38.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5044712921da85034207a7f0ced42127f0f8b816c6051023cccec96166365a14"
     end
     on_intel do
-      url "https://github.com/erickochen/purple/releases/download/v2.37.0/purple-2.37.0-x86_64-apple-darwin.tar.gz"
-      sha256 "077f22ff8cb4403c555006ca2e801615cb765ee6e7dc0383ebadbca968db0a6c"
+      url "https://github.com/erickochen/purple/releases/download/v2.38.0/purple-2.38.0-x86_64-apple-darwin.tar.gz"
+      sha256 "87c3e9207649c36ab8758ddea53504250e9a77e0a497b64f19af0cef6a8de845"
     end
   end
 
