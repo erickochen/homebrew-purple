@@ -1,19 +1,19 @@
 class Purple < Formula
   desc "Open-source terminal SSH manager and SSH config editor"
   homepage "https://github.com/erickochen/purple"
-  version "3.3.0"
+  version "3.4.0"
   license "MIT"
 
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/erickochen/purple/releases/download/v3.3.0/purple-3.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "fcf5a133e38afa5f7d320d38196e324d8e7fee062a327f725cb8799e558b035d"
+      url "https://github.com/erickochen/purple/releases/download/v3.4.0/purple-3.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "10f435879e07e37d0133075d5524dddb2b1c04e1b1211612e19987dbf0820184"
     end
     on_intel do
-      url "https://github.com/erickochen/purple/releases/download/v3.3.0/purple-3.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8893ea01e765385dd9f763b64d9a6bb60bcb87ebaff5df1ac8ae8347af33a518"
+      url "https://github.com/erickochen/purple/releases/download/v3.4.0/purple-3.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "be2bb2588f57d0377bb879482e673474a978a737501f5dcf695c101b68135c34"
     end
   end
 
